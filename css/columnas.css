@@ -1,0 +1,40 @@
+/* GLOBAL */
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	font-family: sans-serif;
+	box-sizing: border-box; /*ignora el ancho y el borde de los elementos*/
+}
+
+.fila{
+	position: relative; /*cajas externas*/
+	margin: auto; /* margen externa*/
+	width: 100%;
+	height: auto;
+	/*las columnas dentro de una fila estan flotando a la izquierda, para evitar que ocupen espacio en  la misma fila,
+	se utilizan estas dos propiedades: clear  y display; esto permite despejar el flujo */
+	clear: both;
+	display: table;
+}
+
+[class*="col-"]{
+	float: left;	
+	border: 2px solid blue;
+	padding: 20px;
+}
+
+.col-12{width: 100%;}
+
+.col-9{width: 75%;}
+
+.col-7{width: 58.33333333%;}
+
+.col-6{	width: 50%;}
+
+.col-5{	width: 41.66666667%;}
+
+.col-4{	width: 33.33333333%;}
+
+.col-3{	width: 25%;}

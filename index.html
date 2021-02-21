@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Fausto Andrade">
+	<meta name="description" content="Descripción del sitio web">
+	<meta name="keywords" content="html desarrollo web">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>DISEÑO WEB RESPONSIVE</title>
+	<link rel="icon" href="img/icono_f.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/estilo.css " type="text/css" media="">
+</head>
+<body>
+	<div class="contenedor">
+		<!-- Sección 1 cabezote -->
+		<header class="fila">
+			<!-- primera columna dentro de la fila 1 (logotipo)-->
+			<div id="logo" class="col-lg-2 col-md-2 col-sm-3 col-xs-12">Logotipo</div>
+
+			<!-- Segunda columna dentro de la fila 1 (vacia) -->
+			<div class="col-lg-8 col-md-8 col-sm-6 col-xs-0"></div>
+
+			<!-- Tercera columna dentro de la fila 1 (Redes Sociales) -->
+			<div id="redes" class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					<center>
+					<a href="http://www.facebook.com" target="_blank"><img src="img/facebook.jpg" alt=""></a>
+					</center>					
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					<center>
+					<a href="http://www.twitter.com" target="_blank"><img src="img/iconoTwitter.jpg" alt=""></a>
+					</center>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					<center>
+					<a href="http://www.google.com" target="_blank"><img src="img/iconoGoogle.jpg" alt=""></a>
+					</center>
+				</div>
+			</div>
+		</header>
+
+		<!-- Sección 2 navegación -->
+		<nav class="fila">
+			<ul>
+				<li class="col-lg-2 col-md-2 col-sm-6 col-xs-12"><a href="#">Inicio</a></li>
+				<li class="col-lg-2 col-md-2 col-sm-6 col-xs-12"><a href="#">Servicios</a></li>
+				<li class="col-lg-2 col-md-2 col-sm-6 col-xs-12"><a href="#">Fotos</a></li>
+				<li class="col-lg-2 col-md-2 col-sm-6 col-xs-12"><a href="#">Siguenos</a></li>
+				<li class="col-lg-2 col-md-2 col-sm-6 col-xs-12"><a href="#">Quienes Somos</a></li>
+				<li class="col-lg-2 col-md-2 col-sm-6 col-xs-12"><a href="#">Contáctenos</a></li>
+			</ul>
+		</nav>
+
+		<!-- Sección 3 (cajas - imagenes) -->
+		<section id="seccion3" class="fila">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<center>
+					<img src="img/img01.jpg" alt="">
+					<h1>Lorem ipsum.</h1>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				</center>
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<center>
+					<img src="img/img02.jpg" alt="">
+					<h1>Lorem ipsum.</h1>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				</center>
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<center>
+					<img src="img/img03.jpg" alt="">
+					<h1>Lorem ipsum.</h1>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				</center>
+			</div>
+		</section>
+
+		<!-- Sección 4 (3 columas) -->
+		<section id="seccion4" class="fila">
+			<aside id="izq" class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+				<ul>
+					<li><a href="#">Link 1</a></li>
+					<li><a href="#">Link 2</a></li>
+					<li><a href="#">Link 3</a></li>
+					<li><a href="#">Link 4</a></li>
+				</ul>
+			</aside>
+			<article class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+				<h1>Lorem Ipsum</h1>
+				<p><img src="img/foto.jpg" alt="">Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Quibusdam eveniet natus vero, laboriosam beatae saepe recusandae architecto, nam perferendis. Et eligendi architecto dolorum soluta sed, est temporibus suscipit, fugiat reiciendis.</p>
+				<br>	
+				<p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Ab vero deserunt optio culpa illum provident animi reprehenderit aspernatur impedit, eos saepe voluptates esse numquam earum odit minus obcaecati ullam ut. Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Ab vero deserunt optio culpa illum provident animi reprehenderit aspernatur impedit, eos saepe voluptates esse numquam earum odit minus obcaecati ullam ut.Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Ab vero deserunt optio culpa illum provident animi reprehenderit aspernatur impedit, eos saepe voluptates esse numquam earum odit minus obcaecati ullam ullam.</p>
+			</article>
+			<aside id="der" class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+				<h1>Ingreso</h1>
+				<form>	
+					<input type="text" placeholder="Usuario">
+					<input type="password" placeholder="Contraseña">
+					<input type="submit" placeholder="Enviar">
+				</form>
+			</aside>
+		</section>
+
+		<!-- Sección 5 footer (Pie de página) -->
+		<footer class="fila">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">&copy; Todos los derechos reservados</div>
+		</footer>
+	</div>
+</body>
+</html>
